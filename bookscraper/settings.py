@@ -1,3 +1,4 @@
+from apikey import apikey
 # Scrapy settings for bookscraper project
 #
 # For simplicity, this file contains only settings considered important or
@@ -14,7 +15,7 @@ NEWSPIDER_MODULE = "bookscraper.spiders"
 
 # USER AGENT
 
-SCRAPEOPS_API_KEY = '8a42e525-622b-4255-b1e5-1235b462fc55'
+SCRAPEOPS_API_KEY = apikey
 SRAPEOPS_FAKE_USER_AGENT_ENDPOINT = 'https://headers.scrapeops.io/v1/user-agents'
 SCRAPEOPS_FAKE_USER_AGENT_ENABLED = True
 SCRAPEOPS_NUM_RESULTS = 50
